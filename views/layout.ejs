@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bible verse</title>
+    <link rel="icon" href="../public/images/logo.png">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <% include common/_css_href %>
+    <%- defineContent('mycss') %>
+
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+
+        <!-- Navbar -->
+        <%include common/_navbar %>
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container -->
+        <% include common/_sidebar %>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper" style="min-height: 1935.06px;">
+            <%-body%>
+        </div>
+        <!-- /.content-wrapper -->
+        <% include common/_footer %>
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+    <!-- js plugin default -->
+    <% include common/_js_src %>
+    <%- defineContent('myjavascript') %>
+    <script>
+        var loc = window.location.pathname;
+        $("a.active").removeClass("active");
+        $("a[href$='" + loc + "']").addClass("active");
+    </script>
+</body>
+
+</html>

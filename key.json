@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bible-friend-288110",
+  "private_key_id": "b5f15b715423599d945c333667bb55e232add808",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCEUkyNvVBr7PKa\nv7pEMIzNjtFplHgekgzlm1n+zGPrbCCSRertgBg75TLQlMr7GXxc+g0KmJkn1mUj\nizaLRzFmY7ZwvIHRLGXyGK2NEzGcmxqulhB7oSUBgrd4wYcl0ZSS79AWsm5bYGa8\nhXoNVaX/3JnEOeSflYY19t01umA6+NOZlLoFNwD6ou3936mkMkPfuew/qy49dVG2\nCAbqbwA7fADCYSM3yuz8GzXLXjrhsJ3CkXTe9MDy6DoDdPgwOjGs6g5pH7JY7dWF\nzfnFyinM1w39Iu6aPcKScihWB/J44M9jOWpCviJi/mevGL7itZXKmlJ7B+Xawtct\n1Rjwr1ZBAgMBAAECggEAFX8lTrWd1hrFgxx4z1Ev3sk//i4Poa/KhpbJdRqRdRK4\n6+qN8w2nYjunGLnDjC2kxZod+kW2RAGRpsecEd58CQ1T+1a0pF3ZJg6aS1v96FpO\naGSawur4DxnEYsrWAO/eekyZesZ8JT4xEpmArZ/nevzEwltBaCeriSLU50CjF5FP\nSeMR5NqLvoD4MN4cWx7p9JYFo4EYeEcCFzd2cWv+LNnAuZqH/Yi3kgfGwo0WPt2x\nardcosPU0+ifo9BY9yOG+HWR3mQ4pe1w0VAQ/xKCgoaae17+2wrAZiMzwmuAG2rH\n7jg9LxiNyXERdz8JdnOe/LaMIUduj2WhIQPKcN9MDQKBgQC4SjvquPY8UFp2KAKC\nfDk48d2/zbHCpRXN63hKDlnH+5aK1G3GAx1cFv0C6U/UvwmXlM7LwqjEF6PQKJqh\n9+E23ZLwlC5kJbMxpbUfafvTQlSl+pYNC87/X9oH09cuIn5yLcmPTqlbzAfNPe0f\nVmcmeu+vY1IOUjtDV48rKQytywKBgQC3z01eszlrmpCh6rojl45bLVZvAuVYCcda\neknG45MBXDK/1UyN5NubvrwggVqHOLPbZOAVFzAtn+o763Ga4QfgJSQ7GD2SuQ7D\n7rHdGKl89omxCIB4ADhKnjPEt2T0Wx+oIYAHBMYzoX+JuURrgR+unKTGJ0cMrOd0\nIY7R/iBKowKBgCouy8IxbiNmHR64j8KAXrS7IA/cLFkqYnBM+q6w1DojS1UhxLKz\nWdAPbwBwmRZQWAi7Rg570xd3dcaa1LJIQ+PEGfM5Z9kCjB7MGEZFgx/bKfcIAbqg\nvlPUA9sQ0Us9GAZYlq9XyQo7DHodN56Zr2iucRiLOmgOyIPkkd/GOKG7AoGAPgLk\nGVThxFmq/dVQ4v0Ye8454M3bTe5OoUmsZjsUt1rBjFKLtztEk7Cvi0/YmNIaa6QG\nrVbbXCkdPwXZl+TfYVFmfcFZ1Iw2XQfEXdEaLRyHq4Awx0tbsmDZGj69AmtTrMdQ\niA2mSHjtrCsi2BoB9EjIlkleAPq8Q0OnCVVw030CgYAfyi2Huu812YY/lKi94L43\nN2l1H/JwgPrXoOUGVy55wyAtQSngAdHeoBgZBuB4livNkJGTwXYEEt7kTryKAXki\nwRXDwq7UWzbqw9lenCs9xPKxdqSoStI5O5/n1s8FPW/4QhfhgLPfnypN50MRlpIy\nTvjeZsTqAmOlhYhagAKDkw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "image-upload-file@bible-friend-288110.iam.gserviceaccount.com",
+  "client_id": "112779555206096413165",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/image-upload-file%40bible-friend-288110.iam.gserviceaccount.com"
+}

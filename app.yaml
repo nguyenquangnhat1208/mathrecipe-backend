@@ -1,0 +1,10 @@
+runtime: nodejs10
+
+env_variables:
+    ENVIRONMENT: "production"
+    PATH_IMAGE: "media/"
+    MONGODB_URI_PROD: "mongodb+srv://aht-user:11332244@cluster0.l52go.mongodb.net/Bibleverse?retryWrites=true&w=majority"
+    MONGODB_URI: "mongodb+srv://aht-user:11332244@cluster0.l52go.mongodb.net/Bibleverse?retryWrites=true&w=majority"
+    MONGODB_LOCAL: "mongodb://35.241.169.176:27017/bible"
+    SESSION_SECRET: "bible"
+    TIMEZONE: "Asia/Ho_Chi_Minh"

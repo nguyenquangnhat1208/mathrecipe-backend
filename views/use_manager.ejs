@@ -1,0 +1,189 @@
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1></h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">account-manager</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <!-- /.card-header -->
+                <div class="card-body">
+                    <table id="tblresult" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>ID</th>
+                                <th>username</th>
+                                <th>password</th>
+                                <th>method</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th>STT</th>
+                                <th>ID</th>
+                                <th>username</th>
+                                <th>password</th>
+                                <th>method</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-primary" id="btnAdd" name="btnAdd"><i
+                                class="fa fa-plus"></i>&nbsp; Add new account</button>
+                    </div>
+                </div>
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+</section>
+<!-- /.content -->
+</div>
+
+<!-- The Modal delete-->
+<div class="modal fade" id="deletemodal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Delete account</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <h5></h5>
+                <form method="post" class="form-horizontal" id="frmDelete">
+                    <input type="hidden" id="r_id">
+                </form>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-success" form="frmDelete" id="btnSubmit">Delete</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- ! The Modal appConfirm-->
+
+
+<!-- The Modal create -->
+<div class="modal fade" id="editmodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Create account</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="card-body">
+                    <form role="form" id="frmPost" method="Post">
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label for="email">Username</label>
+                                <input type="text" class="form-control" id="c_email" name="email"
+                                    placeholder="Enter username">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="c_password" name="password"
+                                    placeholder="Enter password">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-success" form="frmPost" id="btnSubmitConfirm">Add</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ! The Modal create -->
+
+
+<!-- The Modal update -->
+<div class="modal fade" id="updatemodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Edit account</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="card-body">
+                    <form role="form" id="frmPut" method="Put">
+                        <input type="hidden" id="u_id">
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label for="email">Username</label>
+                                <input type="text" class="form-control" id="u_email" name="email"
+                                    placeholder="Enter username...">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="u_password" name="password"
+                                    placeholder="Enter password...">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-success" form="frmPut" id="btnSubmitUpdate">Submit</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+            </div>
+
+        </div>
+    </div>
+    <%- contentFor('mycss')%>
+    <!-- DataTables -->
+    <link rel="stylesheet" href="../public/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="../public/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+
+    <link href="../public/mycss/scripture.css" rel="stylesheet">
+
+    <%- contentFor('myjavascript')%>
+    <!-- DataTables -->
+    <script src="../public/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../public/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../public/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../public/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="../public/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+
+    <script src="../public/myjavascript/account_manager.js"></script>

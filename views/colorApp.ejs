@@ -1,0 +1,61 @@
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1></h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">color-app-manager</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-12">
+            <!-- general form elements -->
+            <div class="card card-primary">
+                <div class="card-header">
+                    <h3 class="card-title">Add link and description</h3>
+                </div>
+                <!-- /.card-header -->
+                <!-- form start -->
+                <form id="frmPost">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Youtube</label>
+                            <input type="text" class="form-control" id="url_youtube" name="url_youtube"
+                                placeholder="Youtube url">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Description</label>
+                            <textarea class="form-control" rows="5" name="Description" id="Description" placeholder="Enter description..."
+                                style="margin-top: 0px; margin-bottom: 0px; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <!-- /.card -->
+            <!-- /.card -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+</section>
+<!-- /.content -->
+</div>
+
+<%- contentFor('myjavascript')%>
+
+<script src="../public/myjavascript/colorApp.js"></script>

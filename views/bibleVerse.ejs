@@ -1,0 +1,320 @@
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Bible Verse manager</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">bible-verse-manager</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+
+    <!-- Default box -->
+    <div class="card card-solid">
+        <div class="card-body pb-0">
+            <table id="tblresult" class="table table-bordered table-hover dataTable dtr-inline" cellspacing="0"
+                width="100%">
+                <thead>
+                    <tr>
+                        <th>_id</th>
+                        <th></th>
+                        <th>Image</th>
+                        <th>Status</th>
+                        <th>Status</th>
+                        <th>Status</th>
+                        <th>Status</th>
+                        <th>Status</th>
+                        <th>Status</th>
+                        <th>Status</th>
+                        <th>Method</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <!-- /.card-body -->
+        <div class="card-footer">
+            <div class="row">
+                <div class="col-2">
+                    <button type="button" class="btn btn-sm btn-block btn-success" id="btnAdd" data-toggle="modal"><i
+                            class="fas fa-plus"></i>&nbsp
+                        Add new bible verse</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.card-footer -->
+    </div>
+    <!-- /.card -->
+
+</section>
+<!-- /.content -->
+
+<!-- the modal create -->
+<div class="modal fade" id="createModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Add new bible verse</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a id="c_link" href="/public/images/default-image-620x600.jpg" target="_blank">
+                            <img id="c_blah" src="/public/images/default-image-620x600.jpg" alt="your image"
+                                style="width: 100%" />
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <form id="formPost" method="post" enctype="multipart/form-data">
+                            <label>Url</label>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter url" id="c_url_ear"
+                                    name="url_ear">
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><img src="../public/icon/ear_ct.png" class="myicon"
+                                            alt=""></span>
+                                </div>
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter url" id="c_url_burgemenu"
+                                    name="url_burgemenu">
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><img src="../public/icon/menu_ct.png" class="myicon"
+                                            alt=""></i></span>
+                                </div>
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter url" id="c_url_book"
+                                    name="url_book">
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><img src="../public/icon/book_ct.png" class="myicon"
+                                            alt=""></span>
+                                </div>
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter url" id="c_url_bulb"
+                                    name="url_bulb">
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><img src="../public/icon/light_bulb_ct.png"
+                                            class="myicon" alt=""></span>
+                                </div>
+                            </div>
+                            <input type="hidden" class="scripture_id" name="scripture_id">
+                            <div class="form-group">
+                                <label for="u_no_title">Notification title</label>
+                                <input type="text" class="form-control" id="c_no_title" name="no_title"
+                                    placeholder="Enter notification title">
+                            </div>
+                            <div class="form-group">
+                                <label for="u_no_content">Notification content</label>
+                                <input type="text" class="form-control" id="c_no_content" name="no_content"
+                                    placeholder="Enter notification content">
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label>Status</label>
+                                    <select class="form-control" name="status" id="c_status">
+                                        <option value="false">Hidden</option>
+                                        <option value="true">Not hidden</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <div class="custom-file">
+                                        <label for="exampleInputFile">File input</label>
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input imgInp" id="c_imgInp"
+                                                name="single_image">
+                                            <label class="custom-file-label" for="customFile">File input</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- /.card-body -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" form="formPost" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+
+<!-- the modal update -->
+<div class="modal fade" id="updateModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Update bible verse</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a id="u_link" href="/public/images/default-image-620x600.jpg" target="_blank">
+                            <img id="u_blah" src="/public/images/default-image-620x600.jpg" alt="your image"
+                                style="width: 100%" />
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <form id="formPut" method="put" enctype="multipart/form-data">
+                            <input type="hidden" id="_id" name="_id">
+                            <input type="hidden" class="scripture_id" name="scripture_id">
+                            <div class="form-group">
+                                <label>Url</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Enter url" id="u_url_ear"
+                                        name="url_ear">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><img src="../public/icon/ear_ct.png"
+                                                class="myicon" alt=""></span>
+                                    </div>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Enter url" id="u_url_burgemenu"
+                                        name="url_burgemenu">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><img src="../public/icon/menu_ct.png"
+                                                class="myicon" alt=""></i></span>
+                                    </div>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Enter url" id="u_url_book"
+                                        name="url_book">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><img src="../public/icon/book_ct.png"
+                                                class="myicon" alt=""></span>
+                                    </div>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Enter url" id="u_url_bulb"
+                                        name="url_bulb">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><img src="../public/icon/light_bulb_ct.png"
+                                                class="myicon" alt=""></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="u_no_title">Notification title</label>
+                                    <input type="text" class="form-control" id="u_no_title" name="no_title"
+                                        placeholder="Enter notification title">
+                                </div>
+                                <div class="form-group">
+                                    <label for="u_no_content">Notification content</label>
+                                    <input type="text" class="form-control" id="u_no_content" name="no_content"
+                                        placeholder="Enter notification content">
+                                </div>
+                                <div>
+                                    <label>Status</label>
+                                    <select class="form-control" name="status" id="u_status">
+                                        <option value="false">Hidden</option>
+                                        <option value="true">Not hidden</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <div class="custom-file">
+                                        <label for="exampleInputFile">File input</label>
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input imgInp" id="u_imgInp"
+                                                name="single_image">
+                                            <label class="custom-file-label" for="customFile">File input</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" form="formPut" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<!-- The Modal confirm-->
+<div class="modal fade" id="deletemodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Delete scripture</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5></h5>
+                        <form method="post" class="form-horizontal" id="frmDelete">
+                            <input type="hidden" id="r_id">
+                        </form>
+                        <a id="d_link" href="/public/images/default-image-620x600.jpg" target="_blank">
+                            <img id="d_blah" src="/public/images/default-image-620x600.jpg" alt="your image"
+                                style="width: 100%" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-success" form="frmDelete" id="btnSubmit">Delete</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<%- contentFor('mycss')%>
+<!-- DataTables -->
+<link rel="stylesheet" href="../public/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="../public/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+
+<link href="../public/mycss/bibleVerse.css" rel="stylesheet">
+
+
+<%- contentFor('myjavascript')%>
+<!-- DataTables -->
+<script src="../public/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="../public/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="../public/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="../public/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="../public/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+
+<!-- my config -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        bsCustomFileInput.init();
+    });
+</script>
+<script src="../public/myjavascript/bibleVerse.js"></script>

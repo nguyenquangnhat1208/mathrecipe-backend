@@ -1,0 +1,539 @@
+{
+    "_id" : ObjectId("5f44ba436ddf1b0024e2d7f7"),
+    "title" : "HARDER",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/nejovaheks8gr1duppb7",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598513686/nejovaheks8gr1duppb7.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:14:11.443Z"),
+    "updatedAt" : ISODate("2020-08-27T07:34:46.178Z")
+}
+
+{
+    "_id" : ObjectId("5f44ba436ddf1b0024e2d7f8"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/cqteu5jg3fozc58tf3xe",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339651/cqteu5jg3fozc58tf3xe.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:14:11.993Z"),
+    "updatedAt" : ISODate("2020-08-25T07:14:11.993Z")
+}
+
+{
+    "_id" : ObjectId("5f44ba5d6ddf1b0024e2d7fa"),
+    "title" : "HARDER",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/tsqpdon9ue9w1ytgbclb",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339677/tsqpdon9ue9w1ytgbclb.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:14:37.334Z"),
+    "updatedAt" : ISODate("2020-08-25T07:14:37.334Z")
+}
+
+{
+    "_id" : ObjectId("5f44babf6ddf1b0024e2d7fb"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/xalyxa2zw5lcfgxawh0s",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339774/xalyxa2zw5lcfgxawh0s.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:16:15.271Z"),
+    "updatedAt" : ISODate("2020-08-25T07:16:15.271Z")
+}
+
+{
+    "_id" : ObjectId("5f44bac56ddf1b0024e2d7fc"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/gm8nbm8cd4enkjqlsmti",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339781/gm8nbm8cd4enkjqlsmti.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:16:21.390Z"),
+    "updatedAt" : ISODate("2020-08-25T07:16:21.390Z")
+}
+
+{
+    "_id" : ObjectId("5f44bacc6ddf1b0024e2d7fd"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/dzyuaa1m2i4iftjqm7ww",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339788/dzyuaa1m2i4iftjqm7ww.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:16:28.788Z"),
+    "updatedAt" : ISODate("2020-08-25T07:16:28.788Z")
+}
+
+{
+    "_id" : ObjectId("5f44bad36ddf1b0024e2d7fe"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/o9corotw7fj6d3jxr2xx",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339794/o9corotw7fj6d3jxr2xx.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:16:35.283Z"),
+    "updatedAt" : ISODate("2020-08-25T07:16:35.283Z")
+}
+
+{
+    "_id" : ObjectId("5f44badd6ddf1b0024e2d7ff"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/b2g7htuseqnpde01a6j5",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339805/b2g7htuseqnpde01a6j5.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:16:45.893Z"),
+    "updatedAt" : ISODate("2020-08-25T07:16:45.893Z")
+}
+
+{
+    "_id" : ObjectId("5f44bae46ddf1b0024e2d800"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/hoqyz6ovsgc21vnkcqxb",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339812/hoqyz6ovsgc21vnkcqxb.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:16:52.824Z"),
+    "updatedAt" : ISODate("2020-08-25T07:16:52.824Z")
+}
+
+{
+    "_id" : ObjectId("5f44baee6ddf1b0024e2d801"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/dhsc3lhlxmonak7uehvs",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339821/dhsc3lhlxmonak7uehvs.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:17:02.159Z"),
+    "updatedAt" : ISODate("2020-08-25T07:17:02.159Z")
+}
+
+{
+    "_id" : ObjectId("5f44baf46ddf1b0024e2d802"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/gci9dfejrjph2bbdzjxg",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598514438/gci9dfejrjph2bbdzjxg.jpg",
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:17:08.946Z"),
+    "updatedAt" : ISODate("2020-08-27T07:47:18.663Z")
+}
+
+{
+    "_id" : ObjectId("5f44bbb36ddf1b0024e2d803"),
+    "title" : "HARDER",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/hcuhitr9ktaf4i1umrmi",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598514317/hcuhitr9ktaf4i1umrmi.jpg",
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:20:19.855Z"),
+    "updatedAt" : ISODate("2020-08-27T07:45:17.889Z")
+}
+
+{
+    "_id" : ObjectId("5f44bc216ddf1b0024e2d804"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/yjef7blijidtruhjhpel",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340128/yjef7blijidtruhjhpel.png",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:22:09.274Z"),
+    "updatedAt" : ISODate("2020-08-25T07:22:09.274Z")
+}
+
+{
+    "_id" : ObjectId("5f44bc276ddf1b0024e2d805"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/cgqay3m8zyasvtbakjex",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340135/cgqay3m8zyasvtbakjex.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:22:15.315Z"),
+    "updatedAt" : ISODate("2020-08-25T07:22:15.315Z")
+}
+
+{
+    "_id" : ObjectId("5f44bc2d6ddf1b0024e2d806"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/zqci1ofdtznz7ffzxh1b",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340141/zqci1ofdtznz7ffzxh1b.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b4bd2a090900241a3c27"),
+    "createdAt" : ISODate("2020-08-25T07:22:21.887Z"),
+    "updatedAt" : ISODate("2020-08-25T07:22:21.887Z")
+}
+
+{
+    "_id" : ObjectId("5f44bea03da1d1846c01e090"),
+    "title" : "HARDER",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/avdg16ekpo6tp0msy205",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339651/avdg16ekpo6tp0msy205.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44bea43da1d1846c01e2fe"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/cqteu5jg3fozc58tf3xe",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339651/cqteu5jg3fozc58tf3xe.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44bea93da1d1846c01e533"),
+    "title" : "HARDER",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/tsqpdon9ue9w1ytgbclb",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339677/tsqpdon9ue9w1ytgbclb.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44beae3da1d1846c01e72c"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/xalyxa2zw5lcfgxawh0s",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339774/xalyxa2zw5lcfgxawh0s.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44beb33da1d1846c01e900"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/gm8nbm8cd4enkjqlsmti",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339781/gm8nbm8cd4enkjqlsmti.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44beb73da1d1846c01eb7f"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/dzyuaa1m2i4iftjqm7ww",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339788/dzyuaa1m2i4iftjqm7ww.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44bebd3da1d1846c01ed88"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/o9corotw7fj6d3jxr2xx",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339794/o9corotw7fj6d3jxr2xx.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44bec13da1d1846c01ef44"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/b2g7htuseqnpde01a6j5",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339805/b2g7htuseqnpde01a6j5.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44bec53da1d1846c01f24f"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/hoqyz6ovsgc21vnkcqxb",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339812/hoqyz6ovsgc21vnkcqxb.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44beca3da1d1846c01f49e"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/dhsc3lhlxmonak7uehvs",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339821/dhsc3lhlxmonak7uehvs.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44bece3da1d1846c01f64c"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/fpobwszrnuviwciu9ucm",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339828/fpobwszrnuviwciu9ucm.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44bed33da1d1846c01f86e"),
+    "title" : "HARDER",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/qcv7ixc5fwuwsxga1vsi",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340019/qcv7ixc5fwuwsxga1vsi.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44bed73da1d1846c01fa81"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/yjef7blijidtruhjhpel",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340128/yjef7blijidtruhjhpel.png",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44bedc3da1d1846c01fd12"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/cgqay3m8zyasvtbakjex",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340135/cgqay3m8zyasvtbakjex.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44bee23da1d1846c01ff5b"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/zqci1ofdtznz7ffzxh1b",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340141/zqci1ofdtznz7ffzxh1b.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44bee63da1d1846c020172"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/xowozaniedyreoxzt2qj",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340147/xowozaniedyreoxzt2qj.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44beeb3da1d1846c0203ad"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/a342yhksetzm5a9fbx34",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340152/a342yhksetzm5a9fbx34.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5a92a090900241a3c28")
+}
+
+{
+    "_id" : ObjectId("5f44beef3da1d1846c0205cf"),
+    "title" : "HARDER",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/avdg16ekpo6tp0msy205",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339651/avdg16ekpo6tp0msy205.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bef43da1d1846c0207e5"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/cqteu5jg3fozc58tf3xe",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339651/cqteu5jg3fozc58tf3xe.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bef93da1d1846c0209fb"),
+    "title" : "HARDER",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/tsqpdon9ue9w1ytgbclb",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339677/tsqpdon9ue9w1ytgbclb.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44befd3da1d1846c020bf2"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/xalyxa2zw5lcfgxawh0s",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339774/xalyxa2zw5lcfgxawh0s.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf023da1d1846c020f14"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/gm8nbm8cd4enkjqlsmti",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339781/gm8nbm8cd4enkjqlsmti.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf063da1d1846c0210e7"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/dzyuaa1m2i4iftjqm7ww",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339788/dzyuaa1m2i4iftjqm7ww.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf0b3da1d1846c0212a3"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/o9corotw7fj6d3jxr2xx",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339794/o9corotw7fj6d3jxr2xx.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf0f3da1d1846c0214f2"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/b2g7htuseqnpde01a6j5",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339805/b2g7htuseqnpde01a6j5.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf143da1d1846c021745"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/hoqyz6ovsgc21vnkcqxb",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339812/hoqyz6ovsgc21vnkcqxb.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf183da1d1846c021960"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/dhsc3lhlxmonak7uehvs",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339821/dhsc3lhlxmonak7uehvs.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf1d3da1d1846c021b15"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/fpobwszrnuviwciu9ucm",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598339828/fpobwszrnuviwciu9ucm.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf213da1d1846c021e42"),
+    "title" : "HARDER",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/qcv7ixc5fwuwsxga1vsi",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340019/qcv7ixc5fwuwsxga1vsi.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf263da1d1846c021ffe"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/yjef7blijidtruhjhpel",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340128/yjef7blijidtruhjhpel.png",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf2b3da1d1846c0221ca"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/cgqay3m8zyasvtbakjex",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340135/cgqay3m8zyasvtbakjex.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf303da1d1846c022495"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/zqci1ofdtznz7ffzxh1b",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340141/zqci1ofdtznz7ffzxh1b.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf353da1d1846c0226ee"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/xowozaniedyreoxzt2qj",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340147/xowozaniedyreoxzt2qj.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f44bf393da1d1846c022872"),
+    "title" : "PRAISE",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/a342yhksetzm5a9fbx34",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598340152/a342yhksetzm5a9fbx34.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b5c62a090900241a3c29")
+}
+
+{
+    "_id" : ObjectId("5f4c65bc6ca1ff00245caa7f"),
+    "title" : "loveqqs",
+    "public_id" : "jzxojp2y2c7juyysextu",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/jzxojp2y2c7juyysextu",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598842299/jzxojp2y2c7juyysextu.jpg",
+    "scripture_id" : ObjectId("5f44b75c2a090900241a3c38"),
+    "createdAt" : ISODate("2020-08-31T02:51:40.231Z"),
+    "updatedAt" : ISODate("2020-09-01T11:44:50.669Z")
+}
+
+{
+    "_id" : ObjectId("5f4c665d6ca1ff00245caa82"),
+    "title" : "loveqq",
+    "public_id" : "gtmljl8rwt2ritb9lbde",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/gtmljl8rwt2ritb9lbde",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598842460/gtmljl8rwt2ritb9lbde.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b6e52a090900241a3c36"),
+    "createdAt" : ISODate("2020-08-31T02:54:21.089Z"),
+    "updatedAt" : ISODate("2020-08-31T02:54:21.089Z")
+}
+
+{
+    "_id" : ObjectId("5f4c66776ca1ff00245caa83"),
+    "title" : "abc",
+    "public_id" : "zgglgskqthgepiyjdlch",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/zgglgskqthgepiyjdlch",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598842486/zgglgskqthgepiyjdlch.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b6e52a090900241a3c36"),
+    "createdAt" : ISODate("2020-08-31T02:54:47.094Z"),
+    "updatedAt" : ISODate("2020-08-31T02:54:47.094Z")
+}
+
+{
+    "_id" : ObjectId("5f4c66a16ca1ff00245caa84"),
+    "title" : "abc",
+    "public_id" : "qejxd9wxomyt2xvlubbm",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/qejxd9wxomyt2xvlubbm",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598842528/qejxd9wxomyt2xvlubbm.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b6e52a090900241a3c36"),
+    "createdAt" : ISODate("2020-08-31T02:55:29.105Z"),
+    "updatedAt" : ISODate("2020-08-31T02:55:29.105Z")
+}
+
+{
+    "_id" : ObjectId("5f4c67186ca1ff00245caa85"),
+    "title" : "abc",
+    "public_id" : "epwcr3bsvpanekr73ijs",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/epwcr3bsvpanekr73ijs",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598842648/epwcr3bsvpanekr73ijs.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b6e52a090900241a3c36"),
+    "createdAt" : ISODate("2020-08-31T02:57:28.930Z"),
+    "updatedAt" : ISODate("2020-08-31T02:57:28.930Z")
+}
+
+{
+    "_id" : ObjectId("5f4c67a26ca1ff00245caa86"),
+    "title" : "SIN",
+    "public_id" : "h285b4zpwmjne8pfkb3x",
+    "thumbnail_url" : "http://res.cloudinary.com/dzungph/image/upload/h_400,w_400/h285b4zpwmjne8pfkb3x",
+    "image_url" : "http://res.cloudinary.com/dzungph/image/upload/v1598842786/h285b4zpwmjne8pfkb3x.jpg",
+    "status" : false,
+    "scripture_id" : ObjectId("5f44b75c2a090900241a3c38"),
+    "createdAt" : ISODate("2020-08-31T02:59:46.833Z"),
+    "updatedAt" : ISODate("2020-08-31T02:59:46.833Z")
+}
