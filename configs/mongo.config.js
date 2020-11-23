@@ -1,10 +1,14 @@
 const mongoose = require('mongoose');
+var fs = require('fs');
+const nconf = require('nconf');
 const chalk = require('chalk');
+const path = require('path')
 // please hide connect string !!!
 // mongoose.set('debug', true);
+nconf.argv().env().file({ file: path.join(__dirname, '../key.json') });
 mongoose.set('autoIndex', false);
-console.log(process.env.ENVIRONMENT !== 'dev' ? process.env.MONGODB_URI_PROD : process.env.MONGODB_LOCAL);
-module.exports = mongoose.connect(process.env.ENVIRONMENT !== 'dev' ? process.env.MONGODB_URI_PROD : process.env.MONGODB_LOCAL, {
+console.log(nconf.get("mongoDatabase"));
+module.exports = mongoose.connect(nconf.get("mongoDatabase"), {
     useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true,

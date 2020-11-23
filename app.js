@@ -1,9 +1,11 @@
 var createError = require('http-errors');
 var express = require('express');
-var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
+const nconf = require('nconf');
+const chalk = require('chalk');
+const path = require('path')
 // var fileupload = require('express-fileupload');
 const multer = require('multer')
 const session = require('express-session');
@@ -74,13 +76,14 @@ app.use(cors());
 app.use(flash());
 require('./configs/mongo.config');
 
+nconf.argv().env().file({ file: path.join(__dirname, './key.json') });
 app.use(session({
   resave: true,
   saveUninitialized: true,
-  secret: process.env.SESSION_SECRET,
+  secret: "bible",
   cookie: { expires: new Date(253402300000000) },
   store: new MongoStore({
-    url: process.env.ENVIRONMENT !== 'dev' ? process.env.MONGODB_URI : process.env.MONGODB_LOCAL,
+    url: nconf.get("mongoDatabase"),
     autoReconnect: true,
   })
 }));

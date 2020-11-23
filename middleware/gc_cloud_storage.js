@@ -1,8 +1,7 @@
 
 
 const gc = require('../common/helper');
-const { log } = require('debug');
-const bucket = gc.bucket('cool_files');// should be your bucket name
+const bucket = gc.bucket('file_save');// should be your bucket name
 
 /**
  *
