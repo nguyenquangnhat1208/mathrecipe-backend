@@ -60,10 +60,11 @@ exports.GetScriptureForMobile = async (req, res) => {
             // console.log(url.url_youtube);
             Scripture.paginate({ status: true }, options, (error, result) => {
                 if (error) {
+                    console.log(error);
                     res.status(200).json({ status: false, msg: error, code: 'ERR_GET_Scripture' });
                 } else {
                     let data = result.docs;
-                    data[0].urlKey = url.url_youtube
+                    // data[0].urlKey = url.url_youtube
                     res.status(200).json({ status: true, data: data, recordsTotal: result.limit, recordsFiltered: result.totalDocs })
                 }
             })
