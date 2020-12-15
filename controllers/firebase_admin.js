@@ -1,13 +1,13 @@
 const moment = require('moment-timezone');
 const FirebaseNoti = require('../models/firebaseNoti')
 const admin = require("firebase-admin");
-var serviceAccount = require('../services/keys/bible-app-3-firebase-adminsdk-e2fs1-f0c9c2eff4.json');
+var serviceAccount = require('../services/keys/mathnote-firebase-adminsdk-19vgb-138423eb2d.json');
 const BibleVerse = require('../models/bibleVerse');
 const Scripture = require('../models/scripture');
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://bible-app-3.firebaseio.com"
+    databaseURL: "https://mathnote-default-rtdb.firebaseio.com"
 })
 // moment().tz(process.env.TIMEZONE);
 exports.SetNotification = async (req, res) => {

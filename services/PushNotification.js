@@ -1,10 +1,12 @@
 var admin = require("firebase-admin");
-var serviceAccount  = require('./keys/bible-app-3-firebase-adminsdk-e2fs1-f0c9c2eff4.json');
+var serviceAccount  = require('./keys/mathnote-firebase-adminsdk-19vgb-138423eb2d.json');
 
 
 admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount ),
-    databaseURL: "https://bible-app-3.firebaseio.com"
+    credential: admin.credential.cert(serviceAccount),
+    databaseURL: "https://mathnote-default-rtdb.firebaseio.com"
 })
 
 module.exports.admin = admin;
+
+

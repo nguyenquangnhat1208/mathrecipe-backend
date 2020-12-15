@@ -1,7 +1,7 @@
 
 
 const gc = require('../common/helper');
-const bucket = gc.bucket('file_save');// should be your bucket name
+const bucket = gc.bucket('filesave');// should be your bucket name
 
 /**
  *
